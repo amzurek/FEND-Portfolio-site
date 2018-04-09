@@ -11,29 +11,12 @@ html {
     flex-wrap: wrap;
     white-space: inherit;
 }
+
+/*HEADER styles*/
 .mini {
     width: 120px;
     height: 100px;
     float: left;
-}
-.firstSlide {
-    background-image: url('../images/logo.png');
-    min-height: 800px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 10px;
-    width: 100%;
-}
-.about {
-    font-size: 24px;
-    color: dodgerblue;
-    padding: 10px 0 10px 0;
-}
-.mainZone {
-    min-height: 780px;
-    background-color: rgba(0, 0, 0, 0.9);
 }
 .name {
     float: right;
@@ -53,6 +36,28 @@ html {
     font-size: 18px;
     color: dodgerblue;
 }
+.firstSlide {
+    background-image: url('../images/logo.png');
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    width: 100%;
+}
+
+/*****MAIN styles*****/
+.about {
+    font-size: 24px;
+    color: dodgerblue;
+    padding: 10px 0 10px 0;
+}
+.mainZone {
+    min-height: 780px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
 .myPhoto {
     width: 100%;
     height: 200px;
@@ -94,6 +99,8 @@ html {
     font-size: 24px;
     margin-left: 25px;
 }
+
+/****Main - projects styles****/
 .boxProjects {
     height: 400px;
     width: 100%;
@@ -130,6 +137,8 @@ html {
     max-width: 100%;
     height: 250px;
 }
+
+/*****FOOTER styles*****/
 .contact {
     width: 100%;
     height: 30px;
