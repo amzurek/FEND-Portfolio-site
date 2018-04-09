@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    white-space: inherit;
+}
+.mini {
+    width: 120px;
+    height: 100px;
+    float: left;
+}
+.firstSlide {
+    background-image: url('../images/logo.png');
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    width: 100%;
+}
+.about {
+    font-size: 24px;
+    color: dodgerblue;
+    padding: 10px 0 10px 0;
+}
+.mainZone {
+    min-height: 780px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.name {
+    float: right;
+    line-height: 15px;
+    text-transform: uppercase;
+    text-align: right;
+    font-weight: 700;
+    min-height: 120px;
+    z-index: 9999;
+    width: 100%;
+}
+.myName {
+    font-size: 34px;
+    color: rgba(0, 0, 0, 0.9);
+}
+.degree {
+    font-size: 18px;
+    color: dodgerblue;
+}
+.myPhoto {
+    width: 100%;
+    height: 200px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.photo {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.skills {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-style: italic;
+    color: deeppink;
+    text-align: center;
+}
+.shortDescription {
+    font-size: 42px;
+    text-align: center;
+    max-width: 100%;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.text {
+    color: white;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 28px;
+}
+.sendContact {
+    color: deeppink;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 25px;
+}
+.boxProjects {
+    height: 400px;
+    width: 100%;
+}
+.projectTitle {
+    font-size: 24px;
+    padding-top: 15px;
+    color: dodgerblue;
+}
+.projects {
+    margin-top: 35px;
+    width: 100%;
+}
+.myWork1 {
+    width: 45%;
+    height: 100%;
+    float: left;
+    margin-left: 30px;
+}
+.myWork1, .myWork2 {
+    display: block;
+}
+.animalProject {
+    max-width: 100%;
+    height: 250px;
+}
+.myWork2 {
+    width: 45%;
+    height: 100%;
+    float: left;
+    margin-left: 20px;
+}
+.pixelProject {
+    max-width: 100%;
+    height: 250px;
+}
+.contact {
+    width: 100%;
+    height: 30px;
+    color: deeppink;
+    font-size: 24px;
+}
+footer {
+    background: rgba(0, 0, 0, 0.1);
+    height: 105px;
+}
+.portfolio {
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    width: 250px;
+    height: 30px;
+    float: left;
+    padding-top: 20px;
+}
+.links {
+    display: flex;
+}
+.fafacebookLink {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-left: 42px;
+}
+.gigithubLink {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.lilinkedinLink {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.copyright {
+    text-align: right;
+    font-size: 12px;
+}

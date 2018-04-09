@@ -1,0 +1,101 @@
+html {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+@media screen and (max-width: 599px) {
+    .myName {
+        font-size: 18px;
+    }
+    .degree {
+        font-size: 10px;
+    }
+    .mini {
+        width: 90px;
+        height: 65px;
+    }
+    .firstSlide {
+        min-height: 560px;
+    }
+    .boxProjects {
+        height: 250px;
+    }
+    .projects {
+        display: inline-flex;
+    }
+    .animalProject {
+        width: 95%;
+        height: 95%;
+        margin-left: -10px;
+    }
+    .pixelProject {
+        width: 95%;
+        height: 95%;
+        margin-left: -10px;
+    }
+    footer {
+        height: 150px;
+    }
+    .portfolio {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 48px;
+    }
+    .links {
+        display: block;
+        height: 90px;
+    }
+    .fafacebookLink {
+        padding-top: 15px;
+        font-size: 14px;
+    }
+    .gigithubLink {
+        padding-left: 15px;
+        font-size: 14px;
+    }
+    .lilinkedinLink {
+        padding-left: 15px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    body {
+        width: 768px;
+    }
+    .myName {
+        font-size: 34px;
+    }
+    .shortDescription {
+        font-size: 40px;
+    }
+    .text {
+        font-size: 24px;
+    }
+    footer {
+        height: 150px;
+        width: 100%;
+    }
+    .portfolio {
+        font-size: 20px;
+        width: 160px;
+        height: 100px;
+    }
+    .links {
+        height: 90px;
+    }
+    .contact {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    body {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .sendContact {
+        font-size: 30px;
+    }
+}
